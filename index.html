@@ -10,10 +10,27 @@
 
     <body>
         <header>Welcome</header>
-        <nav>nav sunshine</nav> 
+        <nav><button>sunshine <!-- button switch inside nav --></button></nav>
+
         <main>
-         <section class="rightside"></section>  
-         <section class="leftside"></section> 
+         <div class="rightcontainer"><!--rightside -->
+        <h2>Tell me.. what is on your mind ?</h2>
+        <form>
+        <label for = "uname"> Username</label>    
+        <input type="text">
+        <label for = "title">Title</label>
+        <input type ="text">
+        <label for = "content">Content</label>
+        <input type ="text">
+        <button>Submit</button>
+        </form>
+         </div> 
+
+         <div class="leftcontainer"> <!-- leftside -->
+            <span id="blogtitle" >A Blog Four You</span> <!-- css circle -->
+         </div>
+
+
         </main>
     </body>
 </html>
