@@ -1,10 +1,43 @@
-#submitButton {
-    display: ;
-    padding: ;
-    backround-color:red;
+header{
+    display:flex;
+    flex-direction:row-reverse;
+    margin:31px;
+    }
+
+body{border: 50px;}
+
+main{
     text-align: center;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    }
+
+
+
+.rightcontainer{font-size: 20px;}
+
+form{display: flex;
+flex-direction: column;}
+
+#submitButton {
+
+    
+    border-width: 5px;
+    border-color: #332f59;
+    padding:0;
+    background-color:#332f59;
+    text-align: center;
+   color:aliceblue;
     text-decoration: ;
     border-radius: ;
-
 }
-#submitButton:hover{}
+
+.leftcontainer
+{border: 50px;}
+
+#blogtitle
+{font-size: 50px;}
+
