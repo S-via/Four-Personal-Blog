@@ -1,14 +1,14 @@
+ body{border: 50px;}
+
 header{
     display:flex;
     flex-direction:row-reverse;
     margin:31px;
     }
 
-    .sunshine-toogle{
-        
-    }
+    #sunshine{ }
 
-body{border: 50px;}
+
 
 main{
     text-align: center;
@@ -23,7 +23,10 @@ main{
 
 .rightcontainer{font-size: 20px;}
 
-form{display: flex;
+/* h1{} */
+
+#form
+{display: flex;
 flex-direction: column;}
 
 #submitButton {
@@ -36,12 +39,11 @@ flex-direction: column;}
     text-align: center;
    color:aliceblue;
     text-decoration: ;
-    border-radius: ;
+    border-radius: ; */
 }
 
-.leftcontainer
+ .leftcontainer
 {border: 50px;}
 
 #blogtitle
-{font-size: 50px;}
-
+{font-size: 50px;} 
