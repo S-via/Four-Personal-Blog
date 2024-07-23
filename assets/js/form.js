@@ -1,11 +1,12 @@
 
 // get values from each #id of username, title and content 
-const formElement = document.getElementById('#form');
+const formElement = document.querySelector('#form');
 
  //const username = document.getElementById('username').value;
  //const title= document.getElementById('title').value;
  //const content= document.getElementById('content').value;  // add all of these consts into a single variable and push into const newInput// //
  
+
  function submitForm(event)
  { event.preventDefault();
     const username = document.getElementById('username').value;
@@ -15,13 +16,15 @@ const formElement = document.getElementById('#form');
     console.log(username,title,content);
  
 }
- //const newForm
-//__.push("newForm");
+ //const newForm {username,title,content};
+//__.push("empty");
 //console.log(newForm);
-// add newInput =JSON.stringfy()  // to be able to store it into local.Storage
+// add newF =JSON.stringfy()  // to be able to store it into local.Storage
 //localStorage.()
 
 form.addEventListener('submit',submitForm);
 console.log(window.document);
+
+
 
 
