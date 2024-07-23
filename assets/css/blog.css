@@ -1,12 +1,12 @@
 
 
 .light
-{background-color:beige ;
-color :black;}
+{ }
 
 .dark
 {background-color: darkslategrey;
-color:beige;}
+color:beige;
+height:100vh;}
 
 
 
