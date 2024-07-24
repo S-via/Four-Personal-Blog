@@ -1,6 +1,6 @@
 
 // get values from each #id of username, title and content 
-const formElement = document.querySelector('#form'); // query selector 
+const formElement = document.querySelector('#form'); // query selector to to target #form in document html
 
  //const username = document.getElementById('username').value;
  //const title= document.getElementById('title').value;
