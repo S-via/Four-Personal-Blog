@@ -1,4 +1,10 @@
- body{border: 50px;}
+ 
+ 
+ body
+ {
+    
+background-image: url("four.jpg");
+background-size: cover;}
 
 header{
     display:flex;
