@@ -17,14 +17,14 @@ sunshineSwitch.addEventListener('click' , function () {
         everything.setAttribute('class','light');}
     });
 
-    let blogCard=""
+    let blogCard="" // empty string that will have the
 for (let blog of blogArray){
 blogCard+= `
-<div class="blog-card">
+<div class="blog-card"> 
 <h3>${blog.title}</h3>
 <p>${blog.username}</p>
 <p>${blog.content}</p>
 </div>
 `
-blogContainer.innerHTML=blogCard
+blogContainer.innerHTML=blogCard // the elements blogCard will be linked into blog.html inside the section class="blogcontainer"
 }
