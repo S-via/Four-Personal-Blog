@@ -33,8 +33,9 @@ localStorage.setItem('blogArray',JSON.stringify(blogArray)) // .JSON stringify a
 document.addEventListener('submit',submitForm); // .addEventListner too submit form from document
 console.log(window.document);
 
+
 // the steps below is the draft i did before
- 
+
 //const newForm {username,title,content};
 //__.push("empty");
 //console.log(newForm);
