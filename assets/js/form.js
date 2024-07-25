@@ -7,7 +7,7 @@ const formElement = document.querySelector('#form'); // query selector to to tar
  //const content= document.getElementById('content').value;  // add all of these consts into a single variable and push into const newInput// //
  
 
- function submitForm(event)
+ function submitForm(event) // added a function , which function will be to store arrays and submit to local storage, event.preventdefault to prevent form form to be recieved
  { event.preventDefault();
     const blogArray= JSON.parse(localStorage.getItem('blogArray'))|| []; // array to hold if the are localStorage and the [] is if there were not an array will be created  
     const username = document.getElementById('username').value; // .value to get the value of element by id in html username
