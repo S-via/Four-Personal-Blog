@@ -1,5 +1,5 @@
-const sunshineSwitch = document.querySelector('#sunshine');
-const everything = document.querySelector('.everything');
+const sunshineSwitch = document.querySelector('#sunshine'); 
+const everything = document.querySelector('.everything'); 
 
 const blogArray= JSON.parse(localStorage.getItem('blogArray'))|| [];
 const blogContainer= document.querySelector(".blogcontainer")
