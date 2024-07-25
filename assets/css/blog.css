@@ -1,5 +1,7 @@
 
-
+header{
+    display:flex;
+}
 .light
 { background-color: white;}
 
@@ -10,7 +12,7 @@ height:100vh;}
 
 
 
-.slider{background-color: aquamarine;}
+.slider{background-color: darkslategrey;}
 
 /* //.blogcontainer{
     display: ;
