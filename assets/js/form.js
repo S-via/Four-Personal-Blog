@@ -14,12 +14,12 @@ const formElement = document.querySelector('#form'); // query selector to to tar
     const title= document.getElementById('title').value; // .value to get the value of the elemment by id in html title 
     const content= document.getElementById('content').value; // .vale to target the value of the element by id in html content
     
-    const blogObject={
+    const blogObject={ // object with keys to get the .value from const username, titile ,content 
         username: username, 
         title: title,
         content: content,
     }
-blogArray.push(blogObject);
+blogArray.push(blogObject); // pushing everything in blogObject into blogArray
 localStorage.setItem('blogArray',JSON.stringify(blogArray))
  
 //username.value ="";
