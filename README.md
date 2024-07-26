@@ -8,7 +8,7 @@ The expected mock up images presented.
 
 ## My Two Page Blog 
 ![firstpage](assets/img/Image-3.png)
-![secondpage](assets/img/Image-2.png)
+![secondpage](assets/img/image2.png)
 ![thirdpage](assets/img/Image.png)
 
 ## Contact
