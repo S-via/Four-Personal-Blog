@@ -22,9 +22,10 @@ for (let blog of blogArray){
 blogCard+= `
 <div class="blog-card"> 
 <h3>${blog.title}</h3>
-<p>${blog.username}</p>
 <p>${blog.content}</p>
+<p><i>Posted : ${blog.username}</i></p>
 </div>
 `
 blogContainer.innerHTML=blogCard // the elements blogCard will be linked into blog.html inside the section class="blogcontainer"
 }
+

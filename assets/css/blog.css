@@ -3,7 +3,7 @@ header{
     display:flex;
 }
 .light
-{ background-image: white;}
+{ background-color: white;}
 
 .dark
 {background-color: darkslategrey;
