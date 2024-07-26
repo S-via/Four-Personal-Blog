@@ -1,5 +1,7 @@
 # Four-Personal-Blog
-Welcome, In this repository you will see the images of the mock up challege that is expected, following you will see images of the two page website where users will input and view blog posts.
+Welcome, In this repository you will see the first three images of the mock up challege that is expected, 
+the following three images you will see the two page website where users will input and view blog posts.
+and the data that is input will be stored into the local storgae.
 ## Mock UP Expected
 The expected mock up images presented.
 ![mockup1](assets/img/mock-up1.png)
@@ -7,8 +9,17 @@ The expected mock up images presented.
 ![mockup3](assets/img/mock-up3.png) 
 
 ## My Two Page Blog 
+# First page 
+It presents the input area for Username , Title, Content
+All of this information will be stored into the local Storage and be directed into the second page 
 ![firstpage](assets/img/Image-3.png)
+# Second page
+Presents the Title, content and username all collected form the first page  
 ![secondpage](assets/img/image2.png)
+
+# Second Page
+You are present at the top a back button where it will direct you to the first page ,
+also a checkbox switch will let you chnage the into dark mood in this case i choose a differnt color 
 ![thirdpage](assets/img/Image.png)
 
 ## Contact
