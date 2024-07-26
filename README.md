@@ -7,7 +7,10 @@ The expected mock up images presented.
 ![mockup3](assets/img/mock-up3.png) 
 
 ## My Two Page Blog 
-## 
+![firstpage](assets/img/Image-3.png)
+![secondpage](assets/img/Image-2.png)
+![thirdpage](assets/img/Image.png)
+
 ## Contact
 * Deployed Website : https://s-via.github.io/Four-Personal-Blog/
 * Git Hub Repo : https://github.com/S-via/Four-Personal-Blog.git
