@@ -20,7 +20,7 @@ Presents the Title, content and username all collected form the first page
 # Second Page
 You are present at the top a back button where it will direct you to the first page ,
 also a checkbox switch will let you chnage the into dark mood in this case i choose a differnt color 
-![thirdpage](assets/img/Image.png)
+![thirdpage](assets/img/Image2new.png)
 
 ## Contact
 * Deployed Website : https://s-via.github.io/Four-Personal-Blog/
