@@ -15,7 +15,7 @@ All of this information will be stored into the local Storage and be directed in
 ![firstpage](assets/img/Image-3.png)
 # Second page
 Presents the Title, content and username all collected form the first page  
-![secondpage](assets/img/image2.png)
+![secondpage](assets/img/Image2.png)
 
 # Second Page
 You are present at the top a back button where it will direct you to the first page ,
