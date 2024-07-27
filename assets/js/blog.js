@@ -17,8 +17,8 @@ sunshineSwitch.addEventListener('click' , function () { // added an event lister
         everything.setAttribute('class','light');} // set atribute with class in css file 
     });
 
-    let blogCard="" // empty string that will have the
-for (let blog of blogArray){
+    let blogCard="" // empty string that will conatin the element in the line below 
+for (let blog of blogArray){ // backticks to add a <div> that will contain blog title, blog content , and blog username that will be imported from blog Contaibner and displyed into second page 
 blogCard+= `
 <div class="blog-card"> 
 <h3>${blog.title}</h3>
