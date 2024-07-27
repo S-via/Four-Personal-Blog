@@ -6,15 +6,15 @@ const blogContainer= document.querySelector(".blogcontainer") // added array tha
 
 let mode ="light";
 
-sunshineSwitch.addEventListener('click' , function () {
-    if (mode === 'light'){
-    mode='dark';
+sunshineSwitch.addEventListener('click' , function () { // added an event lister to the function with the event of being clicked execute the if statement 
+    if (mode === 'light'){ // if mode is stricly equal to light 
+    mode='dark'; // set a mode that is dark 
 
-    everything.setAttribute('class', 'dark');}
+    everything.setAttribute('class', 'dark');} // set attribute class to mode dark in css file 
     
-    else {
+    else { // if not set everything else in mode light 
         mode = 'light';
-        everything.setAttribute('class','light');}
+        everything.setAttribute('class','light');} // set atribute with class in css file 
     });
 
     let blogCard="" // empty string that will have the
